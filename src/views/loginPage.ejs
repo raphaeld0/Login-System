@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="shortcut icon" href="/styles/imgs/ico.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Página de Login</title>
+</head>
+<body>
+<div class="loginPage">
+    <h1>Login</h1>
+    <!-- Adicionei o formulário -->
+    <form action="/view/login" method="POST">
+        <div class="email">
+            <input type="email" name="email" placeholder="Email" id="email" required>
+        </div>
+        <div class="password">
+            <input type="password" name="password" placeholder="Password" id="password" required minlength="8" required >
+        </div>
+        <div class="buttons">
+            <button type="submit">Login</button>
+        </div>
+    </form>
+    <div class="loginRedirect">Don't have an account? <a href="/view/register"><b>Register</b></a>.</div>
+</div>
+</body>
+</html>

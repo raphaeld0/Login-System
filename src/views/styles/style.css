@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background: url('imgs/img.jpg') no-repeat;
+}
+.loginPage{
+    color: white;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    padding: 40px 40px;
+    border: 2px solid rgb(153, 153, 153);
+    border-radius: 15px;
+}
+
+.loginPage h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.register, .password, .email {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.register input, .password input,  .email input {
+    padding: 15px;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 270px;
+    border: 2px solid rgb(153, 153, 153);
+    border-radius: 25px;
+    color: white;
+    background: transparent;
+}
+
+.register input::placeholder, .password input::placeholder, .email input::placeholder {
+    color: white;
+}
+
+
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    padding: 10px 120px;
+    border: 0px;
+    border-radius: 25px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px; 
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.remember {
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.forgot-password {
+    margin-left: auto; 
+    text-decoration: none; 
+    text-align: center;
+    color: #f1f1f1; 
+ }
+
+ .forgot-password:hover{
+    color: #ff5733; 
+ }
+ 
+.loginRedirect{
+    text-align: center;
+ }
+.loginRedirect a {
+    text-decoration: none; 
+    text-align: center;
+    color: #f1f1f1; 
+}
+
+.loginRedirect a:hover {
+    color: #ff5733; 
+}
